@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78108A8A22AAF43900EEA748 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78108A8922AAF43900EEA748 /* MenuViewController.swift */; };
+		78108A9022ADAC4400EEA748 /* SpeciesImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78108A8F22ADAC4400EEA748 /* SpeciesImage.swift */; };
+		78108A9222AECA9C00EEA748 /* CharacteristicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78108A9122AECA9C00EEA748 /* CharacteristicsViewController.swift */; };
+		78286B4422A6D41000EDD8DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78286B4322A6D41000EDD8DA /* GoogleService-Info.plist */; };
+		782EE76D22B9805C00F6198D /* ARInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782EE76C22B9805C00F6198D /* ARInfoViewController.swift */; };
+		782EE79422BADCCE00F6198D /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 782EE79322BADCCE00F6198D /* Scene.sks */; };
+		782EE79622BAE04800F6198D /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782EE79522BAE04800F6198D /* Scene.swift */; };
+		7849214E22976CE0003DD398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7849214D22976CE0003DD398 /* AppDelegate.swift */; };
+		7849215022976CE0003DD398 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 7849214F22976CE0003DD398 /* art.scnassets */; };
+		7849215522976CE0003DD398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7849215322976CE0003DD398 /* Main.storyboard */; };
+		7849215722976CE2003DD398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7849215622976CE2003DD398 /* Assets.xcassets */; };
+		7849215A22976CE2003DD398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7849215822976CE2003DD398 /* LaunchScreen.storyboard */; };
+		784921622297700A003DD398 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784921612297700A003DD398 /* StartViewController.swift */; };
+		7864AD1F22AEFDE10090F4CF /* AugmentedRealityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7864AD1E22AEFDE10090F4CF /* AugmentedRealityViewController.swift */; };
+		7864AD2122AF1E610090F4CF /* DCMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7864AD2022AF1E610090F4CF /* DCMenuViewController.swift */; };
+		7864AD2322B00CDB0090F4CF /* DipNetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7864AD2222B00CDB0090F4CF /* DipNetViewController.swift */; };
+		7864AD2722B320440090F4CF /* SpeciesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7864AD2622B320430090F4CF /* SpeciesCollectionViewCell.swift */; };
+		7864AD2922B4659D0090F4CF /* ImageToTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7864AD2822B4659D0090F4CF /* ImageToTextViewController.swift */; };
+		787B94282297A106009F8D8D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787B94272297A106009F8D8D /* LoginViewController.swift */; };
+		78A4BEDC22A9BD3D00A4CE5A /* SpeciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A4BEDB22A9BD3D00A4CE5A /* SpeciesViewController.swift */; };
+		78D3004C22C2ED9C00CBD133 /* wood frog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78D3004B22C2ED9C00CBD133 /* wood frog.mp3 */; };
+		78D3005122C2F97F00CBD133 /* spring peeper.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78D3004D22C2F97F00CBD133 /* spring peeper.mp3 */; };
+		78D3005222C2F97F00CBD133 /* american toad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78D3004E22C2F97F00CBD133 /* american toad.mp3 */; };
+		78D3005322C2F97F00CBD133 /* leopard frog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78D3004F22C2F97F00CBD133 /* leopard frog.mp3 */; };
+		78D3005422C2F97F00CBD133 /* dragon fly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78D3005022C2F97F00CBD133 /* dragon fly.mp3 */; };
+		78FC00842298753B00EBFB5A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FC00832298753B00EBFB5A /* RegisterViewController.swift */; };
+		970439ABE899AF6F82A44DEC /* Pods_AugRealApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2545ACDD8E2C7067435D4B78 /* Pods_AugRealApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2545ACDD8E2C7067435D4B78 /* Pods_AugRealApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AugRealApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6351C8AAD5E21B1B517E4F52 /* Pods-AugRealApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AugRealApp.release.xcconfig"; path = "Target Support Files/Pods-AugRealApp/Pods-AugRealApp.release.xcconfig"; sourceTree = "<group>"; };
+		78108A8922AAF43900EEA748 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		78108A8F22ADAC4400EEA748 /* SpeciesImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesImage.swift; sourceTree = "<group>"; };
+		78108A9122AECA9C00EEA748 /* CharacteristicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteristicsViewController.swift; sourceTree = "<group>"; };
+		78286B4322A6D41000EDD8DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		782EE76C22B9805C00F6198D /* ARInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARInfoViewController.swift; sourceTree = "<group>"; };
+		782EE79322BADCCE00F6198D /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
+		782EE79522BAE04800F6198D /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		7849214A22976CE0003DD398 /* AugRealApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AugRealApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7849214D22976CE0003DD398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7849214F22976CE0003DD398 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		7849215422976CE0003DD398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7849215622976CE2003DD398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7849215922976CE2003DD398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7849215B22976CE2003DD398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		784921612297700A003DD398 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		7864AD1E22AEFDE10090F4CF /* AugmentedRealityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AugmentedRealityViewController.swift; sourceTree = "<group>"; };
+		7864AD2022AF1E610090F4CF /* DCMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCMenuViewController.swift; sourceTree = "<group>"; };
+		7864AD2222B00CDB0090F4CF /* DipNetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DipNetViewController.swift; sourceTree = "<group>"; };
+		7864AD2622B320430090F4CF /* SpeciesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeciesCollectionViewCell.swift; sourceTree = "<group>"; };
+		7864AD2822B4659D0090F4CF /* ImageToTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageToTextViewController.swift; sourceTree = "<group>"; };
+		787B94272297A106009F8D8D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		78A4BEDB22A9BD3D00A4CE5A /* SpeciesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesViewController.swift; sourceTree = "<group>"; };
+		78D3004B22C2ED9C00CBD133 /* wood frog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "wood frog.mp3"; sourceTree = "<group>"; };
+		78D3004D22C2F97F00CBD133 /* spring peeper.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "spring peeper.mp3"; sourceTree = "<group>"; };
+		78D3004E22C2F97F00CBD133 /* american toad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "american toad.mp3"; sourceTree = "<group>"; };
+		78D3004F22C2F97F00CBD133 /* leopard frog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "leopard frog.mp3"; sourceTree = "<group>"; };
+		78D3005022C2F97F00CBD133 /* dragon fly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dragon fly.mp3"; sourceTree = "<group>"; };
+		78FC00832298753B00EBFB5A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		EE225C2DB246B55387FCE88B /* Pods-AugRealApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AugRealApp.debug.xcconfig"; path = "Target Support Files/Pods-AugRealApp/Pods-AugRealApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7849214722976CE0003DD398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970439ABE899AF6F82A44DEC /* Pods_AugRealApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7849214122976CE0003DD398 = {
+			isa = PBXGroup;
+			children = (
+				7849214C22976CE0003DD398 /* AugRealApp */,
+				7849214B22976CE0003DD398 /* Products */,
+				9E0E2C732960198E59B82B7C /* Pods */,
+				F22B648078F8BAA6B56D765E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7849214B22976CE0003DD398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7849214A22976CE0003DD398 /* AugRealApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7849214C22976CE0003DD398 /* AugRealApp */ = {
+			isa = PBXGroup;
+			children = (
+				78D3004E22C2F97F00CBD133 /* american toad.mp3 */,
+				78D3005022C2F97F00CBD133 /* dragon fly.mp3 */,
+				78D3004F22C2F97F00CBD133 /* leopard frog.mp3 */,
+				78D3004D22C2F97F00CBD133 /* spring peeper.mp3 */,
+				78D3004B22C2ED9C00CBD133 /* wood frog.mp3 */,
+				7849214D22976CE0003DD398 /* AppDelegate.swift */,
+				7864AD1E22AEFDE10090F4CF /* AugmentedRealityViewController.swift */,
+				782EE79522BAE04800F6198D /* Scene.swift */,
+				784921612297700A003DD398 /* StartViewController.swift */,
+				787B94272297A106009F8D8D /* LoginViewController.swift */,
+				7864AD2622B320430090F4CF /* SpeciesCollectionViewCell.swift */,
+				78FC00832298753B00EBFB5A /* RegisterViewController.swift */,
+				78A4BEDB22A9BD3D00A4CE5A /* SpeciesViewController.swift */,
+				78108A8F22ADAC4400EEA748 /* SpeciesImage.swift */,
+				78108A8922AAF43900EEA748 /* MenuViewController.swift */,
+				78108A9122AECA9C00EEA748 /* CharacteristicsViewController.swift */,
+				7864AD2022AF1E610090F4CF /* DCMenuViewController.swift */,
+				7864AD2222B00CDB0090F4CF /* DipNetViewController.swift */,
+				7864AD2822B4659D0090F4CF /* ImageToTextViewController.swift */,
+				782EE76C22B9805C00F6198D /* ARInfoViewController.swift */,
+				782EE79322BADCCE00F6198D /* Scene.sks */,
+				7849215322976CE0003DD398 /* Main.storyboard */,
+				7849214F22976CE0003DD398 /* art.scnassets */,
+				7849215622976CE2003DD398 /* Assets.xcassets */,
+				7849215822976CE2003DD398 /* LaunchScreen.storyboard */,
+				7849215B22976CE2003DD398 /* Info.plist */,
+				78286B4322A6D41000EDD8DA /* GoogleService-Info.plist */,
+			);
+			path = AugRealApp;
+			sourceTree = "<group>";
+		};
+		9E0E2C732960198E59B82B7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE225C2DB246B55387FCE88B /* Pods-AugRealApp.debug.xcconfig */,
+				6351C8AAD5E21B1B517E4F52 /* Pods-AugRealApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F22B648078F8BAA6B56D765E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2545ACDD8E2C7067435D4B78 /* Pods_AugRealApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7849214922976CE0003DD398 /* AugRealApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7849215E22976CE2003DD398 /* Build configuration list for PBXNativeTarget "AugRealApp" */;
+			buildPhases = (
+				C420B9AC5E81EAD4F30AAD7D /* [CP] Check Pods Manifest.lock */,
+				7849214622976CE0003DD398 /* Sources */,
+				7849214722976CE0003DD398 /* Frameworks */,
+				7849214822976CE0003DD398 /* Resources */,
+				03C1D5305231ABD9C41A8D37 /* [CP] Embed Pods Frameworks */,
+				9D3737568CD98B3923AD11EC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AugRealApp;
+			productName = AugRealApp;
+			productReference = 7849214A22976CE0003DD398 /* AugRealApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7849214222976CE0003DD398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Madhumita Ghosal";
+				TargetAttributes = {
+					7849214922976CE0003DD398 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7849214522976CE0003DD398 /* Build configuration list for PBXProject "AugRealApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7849214122976CE0003DD398;
+			productRefGroup = 7849214B22976CE0003DD398 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7849214922976CE0003DD398 /* AugRealApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7849214822976CE0003DD398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782EE79422BADCCE00F6198D /* Scene.sks in Resources */,
+				7849215022976CE0003DD398 /* art.scnassets in Resources */,
+				78D3005422C2F97F00CBD133 /* dragon fly.mp3 in Resources */,
+				78D3005222C2F97F00CBD133 /* american toad.mp3 in Resources */,
+				78D3005322C2F97F00CBD133 /* leopard frog.mp3 in Resources */,
+				7849215A22976CE2003DD398 /* LaunchScreen.storyboard in Resources */,
+				78D3005122C2F97F00CBD133 /* spring peeper.mp3 in Resources */,
+				78286B4422A6D41000EDD8DA /* GoogleService-Info.plist in Resources */,
+				78D3004C22C2ED9C00CBD133 /* wood frog.mp3 in Resources */,
+				7849215722976CE2003DD398 /* Assets.xcassets in Resources */,
+				7849215522976CE0003DD398 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03C1D5305231ABD9C41A8D37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AugRealApp/Pods-AugRealApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AugRealApp/Pods-AugRealApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AugRealApp/Pods-AugRealApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D3737568CD98B3923AD11EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AugRealApp/Pods-AugRealApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AugRealApp/Pods-AugRealApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AugRealApp/Pods-AugRealApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C420B9AC5E81EAD4F30AAD7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AugRealApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7849214622976CE0003DD398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7864AD1F22AEFDE10090F4CF /* AugmentedRealityViewController.swift in Sources */,
+				787B94282297A106009F8D8D /* LoginViewController.swift in Sources */,
+				782EE76D22B9805C00F6198D /* ARInfoViewController.swift in Sources */,
+				78A4BEDC22A9BD3D00A4CE5A /* SpeciesViewController.swift in Sources */,
+				782EE79622BAE04800F6198D /* Scene.swift in Sources */,
+				7864AD2722B320440090F4CF /* SpeciesCollectionViewCell.swift in Sources */,
+				78FC00842298753B00EBFB5A /* RegisterViewController.swift in Sources */,
+				7864AD2122AF1E610090F4CF /* DCMenuViewController.swift in Sources */,
+				78108A8A22AAF43900EEA748 /* MenuViewController.swift in Sources */,
+				7864AD2922B4659D0090F4CF /* ImageToTextViewController.swift in Sources */,
+				7849214E22976CE0003DD398 /* AppDelegate.swift in Sources */,
+				78108A9022ADAC4400EEA748 /* SpeciesImage.swift in Sources */,
+				7864AD2322B00CDB0090F4CF /* DipNetViewController.swift in Sources */,
+				784921622297700A003DD398 /* StartViewController.swift in Sources */,
+				78108A9222AECA9C00EEA748 /* CharacteristicsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7849215322976CE0003DD398 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7849215422976CE0003DD398 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7849215822976CE2003DD398 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7849215922976CE2003DD398 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7849215C22976CE2003DD398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7849215D22976CE2003DD398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7849215F22976CE2003DD398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE225C2DB246B55387FCE88B /* Pods-AugRealApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7A95V28QC;
+				INFOPLIST_FILE = AugRealApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bing.AugRealApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7849216022976CE2003DD398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6351C8AAD5E21B1B517E4F52 /* Pods-AugRealApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7A95V28QC;
+				INFOPLIST_FILE = AugRealApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bing.AugRealApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7849214522976CE0003DD398 /* Build configuration list for PBXProject "AugRealApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7849215C22976CE2003DD398 /* Debug */,
+				7849215D22976CE2003DD398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7849215E22976CE2003DD398 /* Build configuration list for PBXNativeTarget "AugRealApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7849215F22976CE2003DD398 /* Debug */,
+				7849216022976CE2003DD398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7849214222976CE0003DD398 /* Project object */;
+}
